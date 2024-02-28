@@ -1,0 +1,32 @@
+.task{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 3.5rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.task > div{
+    width: 100%;
+}
+
+div > span{
+    color: rgba(0, 0, 0, 0.499);
+}
+
+.task > button{
+    border-radius: 100%;
+    font-size: 1.6rem;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.task > button:hover{
+    background-color: rgb(250, 215, 215);
+    filter: invert(1);
+}
